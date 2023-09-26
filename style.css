@@ -1,0 +1,85 @@
+.logo{
+    display: flex;
+    justify-content: space-between;
+
+}
+.discover1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.discover2, .discover3{
+    display: flex; 
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.marg{
+    margin-left: 85px;
+}
+#word{
+    position: absolute;
+    padding: 20px;
+    
+}
+#word span{
+    padding: 20px;
+    display: inline-block;
+    font-size:50px;
+    font-weight: 0;
+    color: white;
+    font-family:'Times New Roman', Times, serif
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+}
+.kidz img{
+    height:490px; 
+}
+@media (max-width:426px){
+    .kidz img{  
+        height: 300px;
+        width: 425px;
+    }
+    #word span{
+        font-size: 20px;
+    }
+    .discover1{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .discover2{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .discover3{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    
+
+    .hi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .p1{
+        font-size: 10px;
+    }
+
+    .marg{
+        margin-left: 125px;
+    }
+}
